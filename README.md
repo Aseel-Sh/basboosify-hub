@@ -15,7 +15,7 @@ Currently, two services are public: **Products** and **Users**. More are planned
 
 ---
 
-## 🎯 Target Architecture (Planned vs Current)
+## Target Architecture (Planned vs Current)
 
 - **API Gateway (Ocelot)** — *Not implemented yet*
   For routing, JWT validation, and claims forwarding.
