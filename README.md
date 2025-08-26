@@ -103,3 +103,12 @@ docker compose up
 ```bash
 docker compose down
 ```
+
+⚠️ **Note on credentials**  
+The database usernames/passwords in `docker-compose.yml` (`root/admin`, `postgres/admin`) are for **local demo purposes only**.  
+They are **not connected to any real accounts** and should never be reused in production.  
+
+In real deployments you would:  
+- Move secrets into a `.env` file or a secret manager  
+- Use strong, unique passwords  
+- Avoid exposing DB ports publicly (only services inside the Docker network need access)  
