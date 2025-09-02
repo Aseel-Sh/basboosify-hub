@@ -12,7 +12,7 @@ Currently, two services are public: **Products** and **Users**. More are planned
 |---|---|---|---|
 | **Products Service** | [BasboosifySolution.ProductsService](https://github.com/Aseel-Sh/BasboosifySolution.ProductsService) | C# (.NET 8), ASP.NET Core Web API, **MySQL**, Docker | Manages product catalog with CRUD endpoints, dedicated MySQL database, containerized with Docker, seeded with demo data. |
 | **Users Service** | [BasboosifySolution.UsersService](https://github.com/Aseel-Sh/BasboosifySolution.UsersService) | C# (.NET 8), ASP.NET Core Web API, **PostgreSQL**, Docker | Handles user accounts and profiles, dedicated Postgres database, containerized with Docker. |
-| **Orders Service** | [BasboosifySolution.OrdersService](https://github.com/Aseel-Sh/BasboosifySolution.OrdersService) | C# (.NET 8), ASP.NET Core Web API, **MongoDB**, Docker | **WIP.** API project and layered structure in place with a Dockerfile to containerize the service. |
+| **Orders Service** | [BasboosifySolution.OrdersService](https://github.com/Aseel-Sh/BasboosifySolution.OrdersService) | C# (.NET 8), ASP.NET Core Web API, **MongoDB**, Docker | Handles order creation, retrieval, updating, and deletion. |
 
 ---
 
